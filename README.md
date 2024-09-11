@@ -20,7 +20,17 @@ yarn add ananas-fe-share@https://github.com/ananasGit/ananas-fe-share.git
 ```
 
 ## Usage
- Import the utility you need in your project
+Import the utility you need in your project
 ```
 import { utility1, utility2 } from 'ananas-fe-share@ananas-fe-shared';
+```
+
+## Upgrade / Specific version
+To use the latest / specific version of the repository set the version tag in the `package.json`
+```
+{
+  ...
+     "ananas-fe-shared": "https://github.com/ananasGit/ananas-fe-shared.git#v1.0.0",
+  ...
+}
 ```
