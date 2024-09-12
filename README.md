@@ -9,28 +9,34 @@ A collection of reusable TypeScript utilities designed to streamline development
 
 ## Installation
 
-To install the package, use either `npm` or `yarn`:
+`npm`
+
+Check out this link: https://github.com/ananasGit/ananas-fe-shared/pkgs/npm/ananas-fe-shared
+
+`yarn` 
 
 ```
-npm install ananas-fe-share@https://github.com/ananasGit/ananas-fe-shared.git
-````
-or
-```
-yarn add ananas-fe-share@https://github.com/ananasGit/ananas-fe-share.git
+yarn add @ananasgit/ananas-fe-shared@https://github.com/ananasGit/ananas-fe-share.git#1.0.0
 ```
 
 ## Usage
 Import the utility you need in your project
 ```
-import { utility1, utility2 } from 'ananas-fe-shared';
+import { utility1, utility2 } from '@ananasgit/ananas-fe-shared';
 ```
 
 ## Upgrade / Specific version
+`npm`
+
+Check out this link: https://github.com/ananasGit/ananas-fe-shared/pkgs/npm/ananas-fe-shared
+
+`yarn`
+
 To use the latest / specific version of the repository set the version tag in the `package.json`
 ```
 {
   ...
-     "ananas-fe-shared": "https://github.com/ananasGit/ananas-fe-shared.git#1.0.0",
+      "@ananasgit/ananas-fe-shared": "https://github.com/ananasGit/ananas-fe-shared.git#1.0.0",
   ...
 }
 ```
