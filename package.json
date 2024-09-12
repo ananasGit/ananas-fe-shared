@@ -2,8 +2,9 @@
   "name": "ananas-fe-shared",
   "version": "1.0.0",
   "main": "src/index.ts",
+  "type": "module",
+  "author": "ananas",
   "repository": "https://github.com/ananasGit/ananas-fe-shared.git",
-  "author": "Ananas FE team",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.6.2"
