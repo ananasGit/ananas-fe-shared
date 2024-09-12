@@ -55,14 +55,13 @@ To release a new version of this package, follow the steps below:
 
 A consistent versioning scheme helps users understand the evolution of the package over time. The following convention is recommended:
 
-- Major Version (X.0.0):
-First number (e.g., 1.x.x) indicates significant changes that may affect backward compatibility.
+- The First number (e.g., 1.x.x) indicates significant changes that may affect backward compatibility.
 Minor Version (1.Y.0):
 
-- Second number (e.g., 1.2.x) is incremented for smaller, backward-compatible updates.
+- The Second number (e.g., 1.2.x) is incremented for smaller, backward-compatible updates.
 Patch Version (1.0.Z):
 
-- Third number (e.g., 1.2.3) is for bug fixes or minor updates that do not affect compatibility.
+- The Third number (e.g., 1.2.3) is for bug fixes or minor updates that do not affect compatibility.
 
 ## Versioning Rules:
 Breaking Changes (Major Versions):
@@ -74,5 +73,3 @@ Backward-Compatible Updates (Minor Versions):
 Bug Fixes & Minor Updates (Patch Versions):
 
 - Increment the patch version (Z) for minor changes such as bug fixes or internal updates that do not affect the existing functionality or compatibility of the components.
-
-Test
