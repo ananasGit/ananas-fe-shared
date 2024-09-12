@@ -23,7 +23,7 @@ jobs:
       - run: npm run build
       - name: Get the version from the tag
         id: get_version
-        run: echo "VERSION=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+        run: echo "VERSION=$(echo $GITHUB_REF | sed 's/refs\/tags\///')" >> $GITHUB_ENV
       - name: Update package.json version
         run: |
           sed -i 's/"version": ".*"/"version": "${{ env.VERSION }}"/' package.json
