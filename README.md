@@ -36,7 +36,7 @@ To use the latest / specific version of the repository set the version tag in th
 ```
 {
   ...
-      "@ananasgit/ananas-fe-shared": "https://github.com/ananasGit/ananas-fe-shared.git#1.0.0",
+      "@ananasgit/ananas-fe-shared": "1.0.0",
   ...
 }
 ```
