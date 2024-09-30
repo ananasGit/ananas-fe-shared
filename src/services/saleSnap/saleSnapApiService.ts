@@ -11,7 +11,7 @@ interface ContactData {
     pol?: string;
     kupac?: string;
     abandoned_cart?: string;
-    tags?: string;
+    tags?: string | string[];
 }
 
 class SaleSnapAPIService {
