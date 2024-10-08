@@ -1,6 +1,6 @@
 {
   "name": "@ananasgit/ananas-fe-shared",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "src/index.ts",
   "type": "module",
   "author": "ananas",
