@@ -1,6 +1,6 @@
 {
   "name": "@ananasgit/ananas-fe-shared",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.ts",
   "type": "module",
   "author": "ananas",
@@ -10,11 +10,18 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.6.2"
+    "@typescript-eslint/eslint-plugin": "^8.8.1",
+    "@typescript-eslint/parser": "^8.8.1",
+    "@typescript-eslint/typescript-estree": "^8.8.1",
+    "eslint": "8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "5.5.4"
   },
   "types": "src/index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint .",
+    "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "publishConfig": {
     "@ananasgit:registry": "https://npm.pkg.github.com/"
