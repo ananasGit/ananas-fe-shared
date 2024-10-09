@@ -5,8 +5,8 @@ name: CI
 # Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  release:
-    types: [published]
+  push:
+    branches: [master]
 
 jobs:
   build:
@@ -21,12 +21,6 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
       - run: npm ci
       - run: npm run build
-      - name: Get the version from the tag
-        id: get_version
-        run: echo "VERSION=$(echo $GITHUB_REF | sed 's/refs\/tags\///')" >> $GITHUB_ENV
-      - name: Update package.json version
-        run: |
-          sed -i 's/"version": ".*"/"version": "${{ env.VERSION }}"/' package.json
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

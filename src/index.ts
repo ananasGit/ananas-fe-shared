@@ -1,1 +1,1 @@
-export * from './services/saleSnap';
+export * from "./services/saleSnap";

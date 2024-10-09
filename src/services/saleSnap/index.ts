@@ -1,1 +1,1 @@
-export { default as SaleSnapAPIService } from './saleSnapApiService';
+export { default as SaleSnapAPIService } from "./saleSnapApiService";

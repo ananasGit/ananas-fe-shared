@@ -5,4 +5,11 @@
 /httpRequests/
 
 node_modules/
-.idea/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tgz
