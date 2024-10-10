@@ -3,6 +3,7 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/dist
 
 node_modules/
 .idea
