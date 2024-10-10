@@ -1,7 +1,10 @@
 {
   "name": "@ananasgit/ananas-fe-shared",
-  "version": "1.0.4",
-  "main": "src/index.ts",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "author": "ananas",
   "repository": {
