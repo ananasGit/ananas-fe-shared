@@ -2,6 +2,10 @@
 
 A collection of reusable TypeScript utilities designed to streamline development for both web and mobile teams.
 
+## !!! IMPORTANT !!!
+
+For every new change you need to change **version** inside **PACKAGE.JSON**
+
 ## Table of Contents
 
 - [Installation](#installation)
