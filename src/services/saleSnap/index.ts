@@ -30,6 +30,10 @@ class SaleSnapAPIService {
 
   getOauthHeadersWithToken = async () => {
     try {
+      if (!this.SALESNAP_CLIENT_ID || !this.SALESNAP_CLIENT_SECRET) {
+        console.log("SS contact/user error", { err: "No client id or secret" });
+        return;
+      }
       const response = await fetch(
         `${this.SALES_SNAP_URL}/oauth/v2/token?grant_type=client_credentials&client_id=${this.SALESNAP_CLIENT_ID}&client_secret=${this.SALESNAP_CLIENT_SECRET}`,
         {
